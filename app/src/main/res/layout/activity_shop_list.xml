@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainView"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical" >
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/lvShopList"
+        style="@style/MainView"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvNoDataFound"
+        style="@style/MainView"
+        android:gravity="center"
+        android:text="products"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Foodie</string>
+
+    <string name="hint_search_text">I want to eat...</string>
+
+    <string name="search_result_waiting_text">Searching . . . </string>
+</resources>
